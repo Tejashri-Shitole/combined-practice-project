@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-image: url(images/pexels-jplenio-1103970.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main{
+    display: flex;
+    padding: 150px;
+}
+
+#sub-div{
+    display: flex;
+    margin: 0px auto;
+}
+
+#general-info{
+    padding: 10px;
+    background-color: white;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#contact-info{
+    padding: 10px;
+    background-color: #4835d4;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.heading-one{
+    margin: 30px;
+    font-weight: 400;
+    color: #4835d4;
+}
+
+.heading-two{
+    margin: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+#title{
+    border: none;
+    width: 100%;
+}
+
+#branch{
+    width: 100%;
+}
+
+#degree{
+    width: 100%;
+}
+
+.input-area{
+   border: none;
+   margin: 30px 0 0 0;
+   width: 100%;
+}
+
+.contact-area{
+    border: none;
+    color: white;
+    margin: 30px 0 0px 0;
+    background-color: #4835d4;
+    width: 87%;
+}
+.contact-area-one{
+    border: none;
+    color: white;
+    background-color: #4835d4;
+    width: 87%;
+}
+
+#pn-code{
+    width: 10%;
+    margin-right: 5px;
+    display: inline;
+}
+
+#form-left input::placeholder{
+    color: rgb(43, 42, 42);
+}
+
+#form-right input::placeholder{
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border: none; /* optional: only if you're using custom borders */
+}
+
+select:focus{
+    outline: none;
+    border: none;
+}
+
+#check-box{
+    margin-top: 10px;
+    
+}
+
+#terms-check{
+    text-decoration: underline;
+}
+
+#check-accept-term{
+    color: white;
+    font-size: small;
+}
+
+.btn{
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: white;
+}
+
+.btn-submit{
+    padding: 5px;
+    margin: 20px 0;
+    position: relative;
+    left: 200px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: white;
+}
+
+button:hover{
+    background: linear-gradient(to right, #f73a99, #2457a5);
+    color: white;
+    cursor: pointer;
+}

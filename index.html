@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Practice Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="main" action="http://localhost:8081/create" method="POST">
+        <div id="sub-div">
+            <div id="general-info">
+                <h2 class="heading-one">General Information</h2>
+                <div id="form-left">
+                    <select name="title" id="title">
+                        <option value="Title">Title</option>
+                        <option value="Mr">Mr.</option>
+                        <option value="Miss">Miss.</option>
+                        <option value="Mrs">Mrs.</option>
+                    </select>
+                    <hr>
+                    <input type="text" name="firstName" class="input-area" placeholder="First Name">
+                    <hr>
+                    <input type="text" name="lastName" class="input-area" placeholder="Last Name">
+                    <hr>
+                    <select name="branch" class="input-area" id="branch">
+                        <option value="Branch">Branch</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="E&TC Engineering">E&TC Engineering</option>
+                    </select>
+                    <hr>
+                    <select name="degree" class="input-area" id="degree">
+                        <option value="Degree">Degree</option>
+                        <option value="B.E">B.E </option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.E">M.E</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="BCS">BCS</option>
+                        <option value="MCS">MCS</option>
+                    </select>
+                    <hr>
+                </div>
+            </div>
+            <div id="contact-info">
+                <h2 class="heading-two">Contact Details</h2>
+                <div id="form-right">
+                    <input type="text" name="street" class="contact-area-one" placeholder="Street">
+                    <hr>
+                    <input type="text" name="address" class="contact-area" placeholder="Address">
+                    <hr>
+                    <input type="number" name="pin" class="contact-area" placeholder="Pin-code">
+                    <hr>
+                    <input type="text" name="phoneCode" class="contact-area" id="pn-code" placeholder="+">
+                    <input type="number" name="phone" class="contact-area" placeholder="Phone Number">
+                    <hr>
+                    <input type="email" name="email" class="contact-area" placeholder="Email-ID">
+                    <hr>
+                    <div id="check-box">
+                        <input type="checkbox" name="checkbox" required>
+                        <label for="" id="check-accept-term">I do accept the <span id="terms-check">the terms &
+                                conditions</span> of your site. </label>
+                    </div>
+                    <button type="reset" class="btn">Reset</button>
+                    <button type="submit" class="btn-submit">Sign in</button>
+                </div>
+            </div>
+    </form>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
